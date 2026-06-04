@@ -1,0 +1,26 @@
+# Environment variables (contains private keys)
+.env
+*.env
+backend/.env
+frontend/.env
+
+# Databases
+*.db
+backend/local_dev.db
+
+# Python
+**/__pycache__/
+*.py[cod]
+*$py.class
+backend/venv/
+.pytest_cache/
+
+# Node / JS
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+
+# OS/System
+.DS_Store
+Thumbs.db
